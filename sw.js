@@ -4,6 +4,6 @@ const FILES = [
   "/vitoriaegustavo/",
   "/vitoriaegustavo/index.html",
   "/vitoriaegustavo/manifest.json",
-  "/vitoriaegustavo/icon-192.png",
+  "/vitoriaegustavo/Screenshot_20260615_183717_TikTok.jpg",
   "/vitoriaegustavo/icon-512.png"
 ];
