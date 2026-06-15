@@ -1,8 +1,8 @@
 {
   "name": "Gustavo & Vitória ❤️",
   "short_name": "G&V Love",
-  "start_url": "./",
-  "scope": "./",
+"start_url": "/vitoriaegustavo/",
+"scope": "/vitoriaegustavo/",
   "display": "standalone",
   "background_color": "#080810",
   "theme_color": "#ff2d78",
