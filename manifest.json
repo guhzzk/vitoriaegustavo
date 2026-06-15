@@ -9,7 +9,7 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "./Screenshot_20260615_183717_TikTok.jpg",
+      "src": "./icon-192.png",
       "sizes": "1080x1070",
       "type": "image/jpg",
       "purpose": "any maskable"
