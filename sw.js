@@ -1,9 +1,31 @@
-const CACHE_NAME = "gv-love-v2"; // mudou pra v2 pra forçar atualização
+const CACHE_NAME = "gv-love-v3";
 
 const FILES = [
   "/vitoriaegustavo/",
   "/vitoriaegustavo/index.html",
   "/vitoriaegustavo/manifest.json",
-  "/vitoriaegustavo/Screenshot_20260615_183717_TikTok.jpg",
+  "/vitoriaegustavo/icon-192.png",
   "/vitoriaegustavo/icon-512.png"
 ];
+
+self.addEventListener("install", (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(FILES))
+  );
+  self.skipWaiting();
+});
+
+self.addEventListener("activate", (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) =>
+      Promise.all(keys.map((key) => key !== CACHE_NAME && caches.delete(key)))
+    )
+  );
+  self.clients.claim();
+});
+
+self.addEventListener("fetch", (event) => {
+  event.respondWith(
+    caches.match(event.request).then((res) => res || fetch(event.request))
+  );
+});
