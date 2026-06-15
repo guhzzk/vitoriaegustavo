@@ -1,9 +1,9 @@
-const CACHE_NAME = "gv-love-v1";
+const CACHE_NAME = "gv-love-v2"; // mudou pra v2 pra forçar atualização
 
 const FILES = [
-  "./",
-  "./index.html",
-  "./manifest.json",
-  "./icon-192.png",
-  "./icon-512.png"
+  "/vitoriaegustavo/",
+  "/vitoriaegustavo/index.html",
+  "/vitoriaegustavo/manifest.json",
+  "/vitoriaegustavo/icon-192.png",
+  "/vitoriaegustavo/icon-512.png"
 ];
