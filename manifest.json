@@ -1,10 +1,11 @@
 {
-  "name": "Eu & Você ❤️",
-  "short_name": "Nosso Amor",
-  "start_url": ".",
+  "name": "Gustavo & Vitória ❤️",
+  "short_name": "G&V Love",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#080810",
   "theme_color": "#ff2d78",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icon.png",
