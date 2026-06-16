@@ -1,11 +1,11 @@
 const CACHE_NAME = "gv-love-v3";
 
 const FILES = [
-  "/vitoriaegustavo/",
-  "/vitoriaegustavo/index.html",
-  "/vitoriaegustavo/manifest.json",
-  "/vitoriaegustavo/icon-192.png",
-  "/vitoriaegustavo/icon-512.png"
+  "https://guhzzk.github.io/vitoriaegustavo/",
+  "https://guhzzk.github.io/vitoriaegustavo/index.html",
+  "https://guhzzk.github.io/vitoriaegustavo/manifest.json",
+  "https://guhzzk.github.io/vitoriaegustavo/icon-192.png",
+  "https://guhzzk.github.io/vitoriaegustavo/icon-512.png"
 ];
 
 self.addEventListener("install", (event) => {
