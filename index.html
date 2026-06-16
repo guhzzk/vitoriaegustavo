@@ -57,7 +57,7 @@ section{padding:80px 24px;max-width:720px;margin:0 auto;}
 
 /* AUDIO BTN */
 #audio-btn{
-  position:fixed;bottom:24px;right:24px;z-index:9997;
+  position:fixed;bottom:24px;right:24px;z-index:10001;
   width:46px;height:46px;border-radius:50%;
   background:rgba(13,13,26,.9);border:1px solid rgba(176,38,255,.4);
   color:var(--neon-purple);font-size:1.2rem;cursor:pointer;
@@ -78,7 +78,7 @@ section{padding:80px 24px;max-width:720px;margin:0 auto;}
 @keyframes bar{from{transform:scaleY(.4)}to{transform:scaleY(1)}}
 
 /* hidden player */
-#hidden-player{position:fixed;bottom:80px;right:24px;z-index:9996;width:280px;border-radius:12px;overflow:hidden;box-shadow:0 0 20px rgba(176,38,255,.3);display:none;}
+#hidden-player{position:fixed;bottom:80px;right:24px;z-index:10000;width:280px;border-radius:12px;overflow:hidden;box-shadow:0 0 20px rgba(176,38,255,.3);display:none;}
 #hidden-player.open{display:block;}
 #hidden-player iframe{width:100%;border:none;display:block;}
 
@@ -195,7 +195,7 @@ footer{position:relative;z-index:2;text-align:center;padding:60px 24px 44px;colo
 
 /* ---- CHAT ---- */
 #chat-btn{
-  position:fixed;bottom:24px;left:24px;z-index:9997;
+  position:fixed;bottom:24px;left:24px;z-index:10001;
   width:46px;height:46px;border-radius:50%;
   background:rgba(13,13,26,.9);border:1px solid rgba(255,45,120,.4);
   color:var(--neon-pink);font-size:1.2rem;cursor:pointer;
@@ -214,7 +214,7 @@ footer{position:relative;z-index:2;text-align:center;padding:60px 24px 44px;colo
 #chat-btn .chat-badge.show{display:flex;}
 
 #chat-window{
-  position:fixed;bottom:80px;left:24px;z-index:9996;
+  position:fixed;bottom:80px;left:24px;z-index:10000;
   width:min(320px, calc(100vw - 32px));
   border-radius:16px;overflow:hidden;
   box-shadow:0 0 30px rgba(255,45,120,.25);
