@@ -1,8 +1,8 @@
 {
-  "name": "Gustavo & Vitória ❤️",
-  "short_name": "G&V Love",
-  "start_url": "/vitoriaegustavo/",
-  "scope": "/vitoriaegustavo/",
+  "name": "Gustavo E Vitória ❤️",
+  "short_name": "G E V Love",
+  "start_url": "https://guhzzk.github.io/vitoriaegustavo/",
+  "scope": "/https://guhzzk.github.io/vitoriaegustavo/",
   "display": "standalone",
   "background_color": "#080810",
   "theme_color": "#ff2d78",
